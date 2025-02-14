@@ -34,77 +34,37 @@
 <body>
    <!-- Scroll -->
     <div id="scrollButton" class="hidden">
-      <div class="outer-circle">
-        <div class="inner-circle">
-          <div class="arrow">↑</div>
+        <div class="outer-circle">
+            <div class="inner-circle">
+                <div class="arrow">↑</div>
+            </div>
         </div>
-      </div>
     </div>
-    <div
-      id="cursor"
-      style="
-        translate: none;
-        rotate: none;
-        scale: none;
-        transform: translate(305px, 644px);
-      "
-    ></div>
-    <nav class="navbar">
-      <div
-        class="logo"
-        style="
-          translate: none;
-          rotate: none;
-          scale: none;
-          opacity: 1;
-          transform: translate(0px, 0px);
-        "
-      >
-        <img src="../img/darklogo.png" alt="Logo" />
-      </div>
-      <button class="mobile-menu-btn">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke="black"
-        >
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </button>
-
-      <ul class="nav-links">
-        <li style="translate: none;rotate: none;scale: none;opacity: 1;transform: translate(0px, 0px);">
-          <a href="index.html">Home</a>
-        </li>
-        <li style="translate: none;rotate: none;scale: none;opacity: 1;transform: translate(0px, 0px);">
-          <a href="pages\platform.html">Platforms</a>
-        </li>
-        <li style="translate: none;rotate: none;scale: none;opacity: 1;transform: translate(0px, 0px);">
-          <a href="about.html">About</a>
-        </li>
-        <li style="translate: none;rotate: none;scale: none;opacity: 1;transform: translate(0px, 0px);">
-          <a href="contact.html">Contact</a>
-        </li>
-        <li style="translate: none;rotate: none;scale: none;opacity: 1;transform: translate(0px, 0px);">
-          <a href="pages/Login.html">Log In</a>
-        </li>
-        <li style="translate: none;rotate: none;scale: none;opacity: 1;transform: translate(0px, 0px);">
-          <a href="./pages/SignUp.html">Sign Up</a>
-        </li>
-      </ul>
+    <header>
+      <nav>
+        <!-- Wrap the logo text in an anchor tag -->
+        <a href="#hero" class="logo">मातृबोधः</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about-page.html">About</a></li>
+            <li class="dropdown">
+                <a href="#">Content</a>
+                <ul class="dropdown-content">
+                    <li><a href="countingpage.html">Counting</a></li>
+                    <li><a href="#">Days</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </li>
+            <li id="loginlist" ><a href="login.html">Login</a></li>
+            <li id="profilelist"><a  href="profile.html">Profile</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+        <div class="toggle-menu">☰</div>
     </nav>
 
-  
-<br>
-<br>
+    </header>
 !-- Contributors Section -->
 <div class="container">
   <h1 class="title">Contributors ⤵️ ....</h1>
